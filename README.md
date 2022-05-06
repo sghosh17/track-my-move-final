@@ -55,9 +55,24 @@ Project is open for contributions.
 
 ## Screenshots
 
-- Screenshots tbc
+- Signup
+  ![Alt text](/screenshots/signup.JPG "Signup ")
+
+- Login
   ![Alt text](/screenshots/login.JPG "Login")
+
+- Roadmap  
+  ![Alt text](/screenshots/roadmap1.JPG "Roadmap")
+
+- Roadmap - Extended View
+  ![Alt text](/screenshots/roadmap2.JPG "Roadmap2")
+
+- Profile
+  ![Alt text](/screenshots/profile.JPG "Profile")
+
+- Edit Profile
+  ![Alt text](/screenshots/editprofile.JPG "EditProfile")
 
 ## Live
 
-The application can be used live [here](tbc)
+The application can be used live [https://track-my-move-backup.herokuapp.com/]
