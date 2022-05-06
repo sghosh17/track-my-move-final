@@ -56,22 +56,22 @@ Project is open for contributions.
 ## Screenshots
 
 - Signup
-  !(/screenshots/signup.JPG "Signup ")
+  ![Alt text](https://user-images.githubusercontent.com/58231568/167224789-23c922aa-c470-49a9-8be1-32389d9e323c.JPG "Signup ")
 
 - Login
-  !(/screenshots/login.JPG "Login")
+  ![Alt text](https://user-images.githubusercontent.com/58231568/167224793-c7b7b805-4d2e-47a8-93bb-985621b574dc.JPG "Login")
 
 - Roadmap  
-  !(/screenshots/roadmap1.JPG "Roadmap")
+  ![Alt text](https://user-images.githubusercontent.com/58231568/167224798-30a12173-26b1-4bba-a71b-9eda51c60351.JPG "Roadmap")
 
 - Roadmap - Extended View
-  !(/screenshots/roadmap2.JPG "Roadmap2")
+  ![Alt text](https://user-images.githubusercontent.com/58231568/167224788-e9f70cc0-8a72-4654-b188-82329145cfd7.JPG "Roadmap2")
 
 - Profile
-  !(/screenshots/profile.JPG "Profile")
+  ![Alt text](https://user-images.githubusercontent.com/58231568/167224796-04c15c7d-1dc2-4609-a65d-a53aebe04cb3.JPG "Profile")
 
 - Edit Profile
-  !(/screenshots/editprofile.JPG "EditProfile")
+  ![Alt text](https://user-images.githubusercontent.com/58231568/167224791-6f19f327-d528-4bf4-b80f-ae950238a600.JPG "EditProfile")
 
 ## Live
 
