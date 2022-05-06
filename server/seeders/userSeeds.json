@@ -1,0 +1,43 @@
+[
+  {
+    "username": "sam123",
+    "email": "sam@gmail.com",
+    "password": "password",
+    "role" :  "Buyer",
+    "address" : "Manchester",
+    "image" : "1646340961851.jpg",
+    "name" : "Sampreeti Das",
+    "phone":  "12345678"
+  },
+  {
+    "username": "matt123",
+    "email": "matt@gmail.com",
+    "role" :  "Buyer",
+    "password": "password",
+    "address" : "Manchester",
+    "image" : "1646340961851.jpg",
+    "name" : "Matthew McKenna",
+    "phone":  "87654321"
+  },
+  {
+    "username": "paulin123",
+    "email": "paulin@gmail.com",
+    "password": "password",
+    "role" :  "Estate Agent",
+    "address" : "Manchester",
+    "image" : "1646340961851.jpg",
+    "name" : "Paulin Fansi ",
+    "phone":  "34567892"
+  },
+  {
+    "username": "bon123",
+    "email": "bon@gmail.com",
+    "password": "password",
+    "role" :  "Estate Agent",
+    "address" : "Manchester",
+    "image" : "1646340961851.jpg",
+    "name" : "mbongeni allan ngwenya ",
+    "phone":  "92853751"
+  }
+  
+]

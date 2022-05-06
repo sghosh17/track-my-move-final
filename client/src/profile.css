@@ -1,0 +1,12 @@
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.float-left {
+  float: left;
+}
+
+.profileImage {
+  width: 300px;
+  max-width: 300px;
+}
