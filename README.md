@@ -1,72 +1,63 @@
-# Getting Started with Create React App
+# Track My Move
 
-Some text for commit
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Added some text as a test for branch
+![License: MIT](https://img.shields.io/badge/License-MIT-blue)
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Questions](#questions)
+- [Screenshots](#screenshots)
+- [Live Site](#live)
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is a MERN stack with graphql application which allows users to keep track of their property purchase and understand the different stages using a roadmap. Each stage has some information about what to expect and a checklist of items which need to be complete. The user also has the option to add comments for reminders and upload any files they wish to keep in one place. There is also an Estate Agent profile who can login and view all the different buyer's roadmaps and add comments to serve as an update for the buyer. In addition the buyer can set up a profile with a photo etc.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Run this command to install dependencies:
 
-### `npm run build`
+    npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Run these commands to start the app:
 
-### `npm run eject`
+    npm run develop
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[License: MIT](https://opensource.org/licenses/MIT)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Project is open for contributions.
 
-## Learn More
+## Questions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Developers Contact details:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  - Github: [Matt McKenna](https://github.com/mattmc86)
 
-### Code Splitting
+  - Github: [Sampreeti Das](https://github.com/sghosh17)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  - Github: [Mbongeni Allan Ngwenya](https://github.com/Allan-Ngwenya)
 
-### Analyzing the Bundle Size
+  - Github: [@pfansi](https://github.com/pfansi)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Screenshots
 
-### Making a Progressive Web App
+- Screenshots tbc
+  ![Alt text](/screenshots/login.JPG "Login")
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Live
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The application can be used live [here](tbc)
