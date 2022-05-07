@@ -8,6 +8,7 @@ const ViewBuyerCard = ({ user }) => {
   return (
     <div className="template" key={user._id}>
       <h3
+        className="link"
         onClick={() => {
           navigate(`/roadmap/${user._id}`);
         }}
