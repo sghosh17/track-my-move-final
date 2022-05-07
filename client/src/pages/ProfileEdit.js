@@ -37,10 +37,6 @@ const ProfileEdit = () => {
 
   const onDrop = useCallback(
     ([file]) => {
-      // setFormState({
-      //   ...formState,
-      //   image: file.name,
-      // });
       setFormState((prevState) => ({
         ...prevState,
         image: file.name,
@@ -50,8 +46,6 @@ const ProfileEdit = () => {
     },
     [uploadFile, formState]
   );
-
-  console.log("state", formState);
 
   const { getRootProps, getInputProps } = useDropzone({ onDrop });
 
@@ -80,10 +74,12 @@ const ProfileEdit = () => {
   };
 
   return (
-    <main className="flex-row justify-center mb-4">
+    <main className="flex-row justify-center mb-4 mt-6">
       <div className="col-12 col-lg-10">
         <div className="card">
-          <h4 className="card-header bg-dark text-light p-2">Edit Profile</h4>
+          <h4 className="card-header bg-dark text-light p-2 profileTitle">
+            Edit Profile
+          </h4>
           <div className="card-body">
             {data ? (
               <p>
@@ -117,20 +113,30 @@ const ProfileEdit = () => {
                   onChange={handleChange}
                 />
 
-                <img
-                  src={`/images/${formState.image}`}
-                  alt={formState.name}
-                  className="profileImage"
-                />
+                <div className="uploadContainer">
+                  <div {...getRootProps()} className="uploadDiv">
+                    <input {...getInputProps()} />
+                    {
+                      <p>
+                        <button
+                          className="btn btn-block btn-info uploadButton"
+                          type="button"
+                        >
+                          Upload
+                        </button>
+                      </p>
+                    }
+                  </div>
 
-                <div {...getRootProps()}>
-                  <input {...getInputProps()} />
-                  {
-                    <p>
-                      Drag 'n' drop some files here, or click to select files
-                    </p>
-                  }
+                  <div className="profileImageDiv">
+                    <img
+                      src={`/images/${formState.image}`}
+                      alt={formState.name}
+                      className="profileImage rounded float-right"
+                    />
+                  </div>
                 </div>
+                <div></div>
 
                 <button
                   className="btn btn-block btn-primary"

@@ -4,10 +4,15 @@
 
 import React, { useContext, useState } from "react";
 import { multiStepContext } from "../StepContext";
+import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
+import { useQuery } from "@apollo/client";
+import { QUERY_USER_BY_ID } from "../utils/queries";
 import Stepper from "@mui/material/Stepper";
 import Step from "@mui/material/Step";
 import StepLabel from "@mui/material/StepLabel";
+
+import Auth from "../utils/auth";
 
 import MortgagePrincipleForm from "../components/Roadmap/MortgagePrincipleForm";
 import MortgageOfferForm from "../components/Roadmap/MortgageOfferForm";
@@ -23,6 +28,15 @@ const Home = () => {
   // const thoughts = data?.thoughts || [];
   const { buyerId } = useParams();
   console.log(buyerId);
+
+  const { loading, data: userProfileData } = useQuery(QUERY_USER_BY_ID, {
+    variables: { userId: buyerId },
+  });
+
+  const userProfile = userProfileData?.userById || {};
+
+  console.log(userProfile);
+
   const [state, setState] = useState({
     mortgagePrincipleForm: {
       note: "",
@@ -156,6 +170,13 @@ const Home = () => {
   }
   return (
     <div className="Sheet">
+      {Auth.getProfile()?.data?.role === "Estate Agent" ? (
+        <Link to={`/profiles/${userProfile.username}`}>
+          <h1>{userProfile.name}'s Roadmap</h1>
+        </Link>
+      ) : (
+        ""
+      )}
       <div>
         <Stepper
           style={{ width: "100%" }}
