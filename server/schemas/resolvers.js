@@ -35,7 +35,6 @@ const resolvers = {
 
     // query form
     forms: async (parent, { userId }) => {
-     
       return Form.find({ user: userId }).populate("user");
     },
     form: async (parent, { userId, formName }) => {
@@ -104,15 +103,6 @@ const resolvers = {
       const result = await Form.create(form);
       return result;
     },
-
-    // addForm: async (parent, { userId, form }, context) => {
-    //   if (context.user && context.user._id === userId) {
-    //     form.user = mongoose.Types.ObjectId(userId);
-    //     const result = await Form.create(form);
-    //     return result;
-    //   }
-    //   throw new AuthenticationError("You need to be logged in!");
-    // },
   },
 };
 
